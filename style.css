@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
 
 *{box-sizing: border-box;
     padding:0;
@@ -12,9 +13,26 @@ body{
     height: 100vh;
     align-items: center;
 }
+select{
+    border-radius: 4px;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #A9A9A9;
+    border: 0.5px solid #AEAEAE;
+    border-radius: 8px;
+    padding-left: 10px;
+    background-color: white;
+    padding-right: 50px;
+
+}
+
 h1{
     text-align: center;
 }
+
+
 .first-p{
     margin-top: 16px;
 }
@@ -22,9 +40,18 @@ h1{
 .first-h1{
     margin-top: 40px;
     line-height: 20px;
+    font-family: Sora,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
 }
 .second-h1{
     margin-top: 40px;
+    line-height: 20px;
+    font-family: 'Sora',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
 }
 .container{
     width: 640px;
@@ -32,10 +59,6 @@ h1{
     background-color: white;
     text-align: center;
     border-radius: 4px;
-    /*display: flex;*/
-    /*justify-content: center;*/
-    /*align-items: center;*/
-    /*flex-direction: column;*/
 }
 
 .second-container{
@@ -44,16 +67,10 @@ h1{
     background-color: white;
     text-align: center;
     border-radius: 4px;
-
-    /*display: flex;*/
-    /*justify-content: center;*/
-    /*align-items: center;*/
-    /*flex-direction: column;*/
 }
 
 
 p{
-    /*background-color: green;*/
     font-family: 'Sora';
     font-style: normal;
     font-weight: 400;
@@ -64,6 +81,12 @@ p{
     color: #000000;
     margin-left: 16px;
 }
+
+.m3{
+    font-family: Sofia;
+}
+
+
 button{
     /*display: block;*/
     /*margin: 0 auto;   */
@@ -72,8 +95,9 @@ button{
     background-color: black;
     color: white;
     font-size: 20px;
-    margin-top: 40px;
+    margin-top: 30px;
     border-radius: 4px;
+    font-family: Sora;
 }
 .first-input{
     /*margin-left: 16px;*/
@@ -116,8 +140,15 @@ input{
     text-align: center;
     /*display: flex;*/
 }
+
+.fourth-container{
+    width: 664px;
+    height: 608px;
+    background-color: white;
+    text-align: center;
+}
 .third-h1{
-    font-family: 'Sora';
+    font-family: Sora;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -147,6 +178,21 @@ input{
     margin-left: 8px;
     margin-top: 16px;
 }
+
+.person1{
+    width: 408px;
+    height: 48px;
+    margin-left: 8px;
+    margin-top: 16px;
+}
+
+.person2{
+    width: 304px;
+    height: 48px;
+    margin-left: 8px;
+    margin-top: 16px;
+}
+
 .date{
     width: 200px;
     height: 48px;
@@ -158,12 +204,18 @@ input{
     margin-left: 8px;
     margin-top: 16px;
 }
+.live1{
+    width: 625px;
+    height: 48px;
+    margin-left: 8px;
+    margin-top: 16px;
+}
 input{
     font-family: 'Sora';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    color: #DADADA;
+    color: black;
     border: 0.5px solid #AEAEAE;
     border-radius: 8px;
     padding-left: 10px;
