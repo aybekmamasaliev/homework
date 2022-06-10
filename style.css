@@ -7,7 +7,7 @@
     margin:0;
 }
 body{
-    background-color: black;
+    background-color: #E5E5E5;
     display: flex;
     justify-content: center;
     height: 100vh;
@@ -224,4 +224,47 @@ button:hover{
     color: black;
     transition-duration: 0.5s;
     cursor: pointer;
+}
+
+.first-h1-m{
+    margin-top: 40px;
+    line-height: 20px;
+    font-family: Sora,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    /*background-color: blueviolet;*/
+    width: 138px;
+}
+
+.container-m{
+    width: 400px;
+    height: 264px;
+    background-color: #E5E5E5;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.container-m-third{
+    width: 400px;
+    height: 200vh;
+    background-color: black;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.first-p-m{
+    margin-top: 16px;
+}
+
+#buttom{
+    width: 95%;
+}
+
+.first-input-m{
+    /*margin-left: 16px;*/
+    width: 370px;
+    height: 48px;
+    padding-left: 16px;
+    margin-top: 8px;
 }
