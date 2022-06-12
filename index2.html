@@ -5,30 +5,32 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>index2</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container-m-third">
-        <h1 class="third-h1" style="display: flex;flex-direction: row">Анкета  для корпоративных клиентов</h1>
-        <p class="third-p">Личные данные</p>
-        <input type="text" placeholder="Фамилия" class="person">
-        <input type="text" placeholder="Имя" class="person">
-        <input type="text" placeholder="Отчество " class="person">
-        <p class="third-p2">Паспортные данные</p>
-        <input type="date" placeholder="Дата рождения" class="date">
-        <input type="text" placeholder="Место проживания по прописке" class="live">
-        <input type="text" placeholder="Серийный номер AN/ID" class="person">
-        <input type="text" placeholder="ИНН" class="person">
-        <input type="date" placeholder="Дата получения" class="person">
-        <input type="tel" placeholder="Контактный номер" class="person">
-        <input type="email" placeholder="Электронный адрес" class="person">
-        <!-- <input type="text" placeholder="Наименование банка" class="person"> -->
-        <select name="" id="" class="person">
-            <option value="">Наименование банка</option>
-        </select>
-        <input type="text" placeholder="Фактическое место проживания" class="live">
-        <a href="#"><button class="first-buttom-m" id="buttom">Далее</button></a>
-    </div>
+<div class="container-third-html-m">
+    <h1 style="font-size: 19px"> Анкета для корпоративных клиентов</h1>
+    <h2>Личные данные</h2>
+    <label for="name">Фамилия</label>
+    <input type="text" id="name" name="surname" placeholder="Иванов">
+    <label for="surname">Имя</label>
+    <input type="text" id="surname" name="surname" placeholder="Иван">
+    <label for="patronymic">Отчество </label>
+    <input type="text" id="patronymic" name="surname" placeholder="Иванович">
+    <label for="birthday">Дата рождения</label>
+    <input type="date" id="birthday" name="surname" placeholder="Иванов">
+    <label for="address">Фактическое место проживания</label>
+    <input type="text" id="address" name="surname" placeholder="Иванов">
+    <label for="phone-number">Контактный номер</label>
+    <input type="text" id="phone-number" placeholder="+996 555 000 000">
+    <label for="phone-number-2">Контактный номер</label>
+    <input type="text" id="phone-number-2" name="surname" placeholder="+996 555 000 000">
+    <label for="email">Электронный адрес</label>
+    <input type="text" id="email" name="surname" placeholder="ivanov@mail.ru">
+    <a href="#">
+        <button class="first-buttom-m" id="buttom">Далее</button>
+    </a>
+</div>
 </body>
 </html>
