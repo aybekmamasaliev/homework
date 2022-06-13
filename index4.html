@@ -9,40 +9,31 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="fourth-container">
-        <h1 class="third-h1" style="display: flex;flex-direction: row">Данные о ваших доходах</h1>
-        <!-- <p class="third-p">Личные данные</p> -->
-        <input type="text" placeholder="Наименование организации" class="person1">
-        <input type="text" placeholder="Должность" class="person">
-        <input type="text" placeholder="Заработная плата в  месяц" class="person2">
-        <input type="text" placeholder="Заработная Плата  за посл.  3 месяца" class="person2">
-        <p class="third-p2"><b>Сведения о кредите</b> </p>
-        <!-- <input type="date" placeholder="Дата рождения" class="date"> -->
-        <input type="text" placeholder="Покупка телефона ( наименование товара)" class="live1">
-        <input type="text" placeholder="Стоимость товара" class="person">
-        <input type="text" placeholder="Количество товара" class="person">
-        <input type="text" placeholder="Итого сумма кредита" class="person">
-
-        <div style="display:flex; padding-left:15px;">
-            <select name="" id="" class="person">
-                <option value="">
-                    Вид кредита
-                </option>
-            </select>
-    
-            <select name="" class="person" style="margin-left: 13px;">
-                <option value="">
-                    Срок кредита ( мес)
-                </option>
-            </select>
-        </div>
-
-        <select name="" class="live1">
-            <option value="">
-                Точка получения товара
-            </option>
-        </select>
-        <a href="#" class="third-button" id="buttom"><button>Далее</button></a>
-    </div>
+<div class="container-third-html-m" style="height: 1200px">
+    <h1 style="font-size: 19px"> Анкета для корпоративных клиентов</h1>
+    <h2>Паспортные данные</h2>
+    <label for="name">Серийный номер AN/ID</label>
+    <input type="text" id="name" name="surname" placeholder="AN1234567">
+    <label for="surname">ИНН</label>
+    <input type="text" id="surname" name="surname" placeholder="12345678987654">
+    <label for="patronymic">Дата получения </label>
+    <input type="date" id="patronymic" name="surname" placeholder="12.12.2021">
+    <label for="birthday">Наименование банка</label>
+    <input type="date" id="birthday" name="surname" placeholder="Выберите банка">
+    <label for="address">Место проживания по прописке</label>
+    <input type="text" id="address" name="surname" placeholder="Бишкек. Чорморова 23/3 кв.43">
+    <h1 style="font-size: 19px;margin-top: 20px" > Анкета для корпоративных клиентов</h1>
+    <label for="phone-number">Организация</label>
+    <input type="text" id="phone-number" placeholder="Megacom">
+    <label for="phone-number-2">Должность</label>
+    <input type="text" id="phone-number-2" name="surname" placeholder="Ведущий бухгалтер">
+    <label for="email">Заработная плата в  месяц</label>
+    <input type="text" id="email" name="surname" placeholder="">
+    <label for="email">Заработная Плата  за посл.  3 месяца</label>
+    <input type="text" id="email" name="surname" placeholder="">
+    <a href="#">
+        <button class="first-buttom-m" id="buttom" style="width: 340px">Далее</button>
+    </a>
+</div>
 </body>
 </html>
